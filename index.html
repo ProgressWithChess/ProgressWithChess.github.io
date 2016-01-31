@@ -1,7 +1,35 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="menu/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="menu_div"></div>  <!-- Navigation -->
+    <h1>Hello World</h1>
+    <p>I'm hosted with GitHub Pages.</p>
+
+    <form data-sheetsu-api-url="https://sheetsu.com/apis/93e1c4ab">
+        <input name="Name" value="">
+        <input name="Score" value="">
+        <button type="submit">submit</button>
+    </form>
+
+    <form data-sheetsu-api-url="https://sheetsu.com/apis/c75ce1d6">
+        <input name="first_name" value="">
+        <input name="last_name" value="">
+        <button type="submit">submit</button>
+    </form>
 </body>
+
+<!-- JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="menu/load_menu.js"></script>
+<script type="text/javascript" src="js/process_form.js"></script>
 </html>
